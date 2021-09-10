@@ -1,6 +1,5 @@
 package com.sparta.week01.prac;
 
-import java.util.ArrayList;
 import java.util.List;
 
 
@@ -8,7 +7,7 @@ public class Prac {
     public Prac() {
     }
 
-    // public, static void 에 대해서는 곧 배웁니다! 우선은 넘어갈게요.
+
     public static void printInfo() {
         String title = "웹개발의 봄 Spring";
         String tutor = "남병관";
@@ -46,7 +45,7 @@ public class Prac {
         return num1 - num2;
     }
 
-    // 과일 목록 받아서, 과일 개수 반환하는 메소드
+    // 과일 목록을 받아서, 과일 개수를 반환하는 메소드
     public static int countFruit(List<String> fruits, String fruit) {
         int count = 0;
         for (String s : fruits) {
