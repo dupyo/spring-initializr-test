@@ -4,13 +4,14 @@ import java.util.List;
 
 
 public class Prac {
+    // 기본생성자
     public Prac() {
     }
 
 
     public static void printInfo() {
         String title = "웹개발의 봄 Spring";
-        String tutor = "남병관";
+        String tutor = "홍두표";
         int weeks = 5;
         float ratings = 5.0f;
 
