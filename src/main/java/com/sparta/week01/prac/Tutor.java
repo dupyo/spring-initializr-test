@@ -34,6 +34,6 @@ public class Tutor {
     // toString() 오버라이딩
     @Override
     public String toString() {
-        return "{ name: " + getName() + ", bio: " + getBio() + " }";
+        return "Tutor { name: " + getName() + ", bio: " + getBio() + " }";
     }
 }
